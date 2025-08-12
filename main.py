@@ -9,7 +9,7 @@ subprocess.run('echo "" >> index.json', shell=True) # runs command in linux
 data = {}
 
 ask = input("Is this your first time using cool? (Y/n) ")
-if ask.lower() == "y":
+if ask == "y" or ask == "Y":
     item = input("What is your first fridge item? ")
     amount = input("How much of " + item + " is there? ")
     data[item] = int(amount)
