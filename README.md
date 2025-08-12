@@ -1,2 +1,6 @@
 # Cool-inventory
-Inventory management on all oses
+Inventory management on linux machines
+
+## Welcome
+
+there is absoulet
